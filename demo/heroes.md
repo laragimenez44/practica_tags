@@ -5,4 +5,3 @@
 * Daredevil
 * Aquaman
 * Mujer Maravilla
-* wolverine 
