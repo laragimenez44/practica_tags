@@ -1,0 +1,51 @@
+1) Semana 1: 31/10 Resumen de proyecto
+Documento con:
+Integrantes: Andrea Suarez.
+	        Carolina Garaycoechea. 
+	        Giménez Lara.
+
+Descripción del proyecto:
+Este proyecto está basado en resolver un sistema de turno para una clínica odontológica privada, está dirigido en la organización 
+de las fichas de pacientes, realizar las altas y bajas de turnos, que son expedidos por el centro odontológico en cuestión. 
+También se tendrán en cuenta las obras sociales y pacientes para la carga en la base de datos para llevar un registro ordenado. 
+La ejecución del programa en principio consta de poder cargar y modificar. A pedido de nuestro cliente se le darán las siguientes 
+funcionalidades que se describen a continuación.
+
+Funcionalidades:
+Pacientes sin obra social: (Nombre: sring, apellido, dni, domicilio, teléfono).
+Obra social (Nombre, apellido, dni, domicilio, teléfono, mutual).
+Alta (asignar turnos, día y hora).
+Baja (cancelar el turno). sting
+Buscar pacientes. string
+Reprogramar un turno(modificaciones).
+Ciudad (donde vive). string
+
+
+trabajo final: un sistema de ABM alta, bajo, y modificaciones
+alta: dato nuevo
+bajo: borrar
+modificar: actualizar info
+datos que no se borran
+repartir trabajo:
+
+
+while opcion < 1 or opcion > 13:
+		if opcion in lista:
+            print("--")
+            print("--")
+            print("(1) Asignar turno")
+            print("(2) Cancelar turno ")
+            print("(3) Crear pacientes")
+            print("(4) Reprogramar turno")
+            print("(5) Buscar pacientes")
+            print("(6) Imprimir turno")
+            print("(7) Imprimir pacientes")
+            print("(8) Guardar en archivo de agenda pacientes") 
+            print("(9) Abrir el archivo de agenda pacientes")
+            print("(10) Guardar en archivo de turnero ") 
+            print("(11) Abrir el archivo de turnero ")
+            print("(12) Salir del programa de turnero y agenda pacientes")
+            opcion = int(input("Elija una opcion: "))
+            print("--")
+        else:
+            print ("Debe de ingresar un numero, vuelva a intentarlo")
