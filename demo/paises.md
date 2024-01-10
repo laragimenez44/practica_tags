@@ -2,4 +2,6 @@
 
 * Argentina
 * Brasil
-* Peru
+* Peru 
+* Francia
+* España
